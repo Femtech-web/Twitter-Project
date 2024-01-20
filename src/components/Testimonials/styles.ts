@@ -1,7 +1,7 @@
 import genStyles from '../customStyles';
 
 const styles = {
-  sectionContainer: `${genStyles.pagePad} min-h-screen bg-greenTheme features_bg`,
+  sectionContainer: `${genStyles.pagePad} min-h-screen md:my-[1.5rem] my-[3rem]`,
 
 }
 

@@ -16,6 +16,36 @@ body {
   /* font-family: 'Poppins', sans-serif; */
 }
 
+.features_bg{
+  min-height: 100vh;
+  padding: 2.06rem 2.2rem;
+  background-image: url("/spiral.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  width: 100%;
+}
+
+.contact_bg{
+  min-height: 100vh;
+  padding: 2.06rem 2.2rem;
+  background-image: url("/Group.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slick-list{
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 912px) {
+  background-position: center;
+  background-size: 500px;
+}
 /* green colors */
 /* #279D71 */
 /* #34A853 */
