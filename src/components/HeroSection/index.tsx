@@ -1,10 +1,8 @@
 /* eslint-disable react-refresh/only-export-components */
 
 import { useState } from "react";
-// import style from "../customStyles";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
-// import { Link } from "react-router-dom";
 import { useCustomState } from "../../hooks/responsive";
 import MobileNavbar from "./MobileNavbar";
 import styles from "./styles";
