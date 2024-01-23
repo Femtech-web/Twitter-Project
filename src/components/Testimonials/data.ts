@@ -38,7 +38,7 @@ export const settings = {
   slidesToShow: 4,
   slidesToScroll: 4,
   autoplay: true,
-  speed: 4000,
+  speed: 1000,
   arrows: false,
   initialSlide: 0,
   responsive: [
