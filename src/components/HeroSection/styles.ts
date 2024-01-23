@@ -20,5 +20,3 @@ const styles = {
 }
 
 export default styles;
-// [#414141]
-// lg:w-[45%] lg:h-auto h-[300px] w-full lg:absolute relative lg:-top-[12%] lg:mt-0 md:mt-[10%] md:mb-0 mb-[30px] top-8 md:right-0 right-[15%] -z-10
