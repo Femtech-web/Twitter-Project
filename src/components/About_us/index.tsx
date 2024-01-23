@@ -1,19 +1,20 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import styles from "./styles";
+import style from "../customStyles";
 
 const Index = () => {
   return (
-    <section className={styles.sectionContainer}>
-      <div className="text-center">
-        <h1 className="font-semibold text-greenTheme mb-4">WHO WE ARE</h1>
-        <p className="md:font-medium font-semibold md:text-2xl sm:text-xl text-base">
+    <section className={style.sectionContainer}>
+      <div className={style.header_center}>
+        <h1 className={style.sectionHeader_two}>WHO WE ARE</h1>
+        <p className={style.headerText_two}>
           Beyond Transportation, Unveiling the Soul of <br /> Our Ride-Sharing
           Experience.
         </p>
       </div>
-      <div className="flex flex-col gap-4 my-10">
-        <div className="flex lg:flex-row flex-col gap-4">
+      <div className={styles.img_container}>
+        <div className={styles.img_wrapper}>
           <img
             src="/girl-sitting-one.jpg"
             alt="A girl in a car"

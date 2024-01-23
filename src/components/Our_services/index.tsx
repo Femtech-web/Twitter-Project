@@ -1,9 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import styles from "./styles";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoManSharp } from "react-icons/io5";
 import { FaBabyCarriage } from "react-icons/fa6";
+import styles from "./styles";
+import style from "../customStyles";
 
 type props = {
   heading: string;
@@ -14,8 +15,8 @@ type props = {
 const FeatureCard = ({ heading, subText, icon }: props) => {
   return (
     <div className={styles.cardContainer}>
-      <span className="">{icon}</span>
-      <h2 className="font-semibold my-6 text-greenTheme text-2xl">{heading}</h2>
+      <span>{icon}</span>
+      <h2 className={styles.card_heading}>{heading}</h2>
       <p className={styles.subtext}>{subText}</p>
     </div>
   );
@@ -24,9 +25,9 @@ const FeatureCard = ({ heading, subText, icon }: props) => {
 const Index = () => {
   return (
     <section className={styles.sectionContainer}>
-      <div className="text-center">
-        <h1 className="font-semibold text-greenTheme mb-4">OUR SERVICES</h1>
-        <p className="md:font-medium font-semibold md:text-2xl sm:text-xl text-base">
+      <div className={style.header_center}>
+        <h1 className={style.sectionHeader_two}>OUR SERVICES</h1>
+        <p className={style.headerText_two}>
           Connecting Cities, Connecting Lives: Experience the <br /> Future of
           Transportation with Our Services
         </p>

@@ -1,32 +1,34 @@
+import style from "../customStyles";
 import styles from "./styles";
 
 const Circle = ({ text }: { text: string; index: number }) => {
   return (
-    <div className="w-[400px] h-[400px] rounded-full bg-white flex justify-center items-center p-[1.5rem] shadow-lg">
-      <div className="w-[350px] h-[350px] rounded-full border-[1px] border-greenTheme flex justify-center items-center">
-        <p className="text-greenTheme font-bold">{text}</p>
+    <div className={styles.circle_container}>
+      <div className={styles.inner_container}>
+        <p className={styles.circle_text}>{text}</p>
       </div>
     </div>
   );
 };
+
 const Index = () => {
   const features = ["Responsible", "Safe", "Transparent"];
 
   return (
-    <section className={styles.sectionContainer}>
-      <div className="text-center">
-        <h1 className="font-semibold text-white mb-4">KEY FEATURES</h1>
-        <p className="md:font-medium text-white font-semibold md:text-2xl sm:text-xl text-base">
+    <section className={`${style.sectionContainer} bg-greenTheme features_bg`}>
+      <div className={style.header_center_two}>
+        <h1 className={style.sectionHeader_one}>KEY FEATURES</h1>
+        <p className={style.headerText_one}>
           Where Comfort Meets Connectivity: Highlighting the Key <br /> Features
           that Define Our Ride-Sharing Excellence
         </p>
       </div>
-      <div className="flex lg:flex-row flex-col items-center mt-[5rem] mb-[3rem] md:-translate-x-6">
+      <div className={styles.features_container}>
         {features.map((text, index) => (
           <>
-            <div className="flex items-center lg:flex-row flex-col">
+            <div className={styles.tyre}>
               {(index === 1 || index === 2) && (
-                <div className="lg:h-[2px] lg:w-[50px] w-[2px] h-[50px] translate-x-0 bg-white"></div>
+                <div className={styles.line}></div>
               )}
               <Circle text={text} key={text} index={index} />
             </div>
@@ -38,4 +40,3 @@ const Index = () => {
 };
 
 export default Index;
-// responsible transparent safe

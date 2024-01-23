@@ -94,17 +94,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-// Header Texts:
-// 1. "Ride in Style, Arrive with Ease"
-// 2. "Your Journey, Your Way: Seamless Rides Await"
-// 3. "Elevate Your Commute: Unleash the Power of Hassle-Free Travel"
-// 4. "Unlock Urban Adventure: Ride Smarter, Ride Better"
-// 5. "Wherever You Go, We've Got Your Ride"
-
-// Subtexts:
-// 1. "Experience the future of transportation with our sleek and reliable rides. Say goodbye to the ordinary commute and embrace a new era of convenience and comfort."
-// 2. "From doorstep to destination, our ride-sharing service is designed to make your life simpler. No more waiting, no more stress – just effortless travel at your fingertips."
-// 3. "Discover a world of possibilities as you ride with us. Whether it's a quick trip to the office or a night out on the town, we're committed to making every journey as enjoyable as the destination itself."
-// 4. "Efficient, eco-friendly, and effortlessly cool – that's the ride-sharing experience you deserve. Join us in revolutionizing the way you move through the cityscape."
-// 5. "Your adventure begins the moment you step into our rides. Fast, friendly, and always at your service – redefine your daily commute with our ride-sharing revolution."
